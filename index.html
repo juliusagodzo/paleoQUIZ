@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz di matematica</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <div class="logo">
+            <h1 class="paleo">paleo</h1>
+            <h1 class="q">Q</h1>
+            <h1 class="ui">UI</h1>
+            <h1 class="z">Z</h1>
+        </div>
+
+        <div class="start_btn"><button>INIZIA IL TEST</button></div>
+
+
+        <div class="info_box">
+            <div class="info-title"><span>REGOLAMENTO</span></div>
+            <div class="info-list">
+                <div class="info">1. Avrai solo <span>15 secondi</span> per ciascuna domanda</div>
+                <div class="info">2. Non potrai modificare le tue risposte</div>
+            </div>
+            <div class="buttons">
+                <button class="quit">ESCI</button>
+                <button class="restart">CONTINUA</button>
+            </div>
+        </div>
+
+
+
+        <div class="quiz_box">
+            <header>
+                <div class="title">Quiz di matematica</div>
+                <div class="timer">
+                    <div class="time_left_txt">Tempo rimanente</div>
+                    <div class="timer_sec">15</div>
+                </div>
+                <div class="time_line"></div>
+            </header>
+            <section>
+                <div class="que_text">
+                </div>
+                <div class="option_list">
+                </div>
+            </section>
+
+            <footer>
+                <div class="total_que">
+                </div>
+                <button class="next_btn">AVANTI</button>
+            </footer>
+        </div>
+
+        <div class="result_box">
+            <div class="icon">
+                <i class="fas fa-crown"></i>
+            </div>
+            <div class="complete_text">Hai completato il quiz!</div>
+            <div class="score_text">
+            </div>
+            <div class="buttons">
+                <button class="restart">RIAVVIA</button>
+                <button class="quit">ESCI</button>
+            </div>
+        </div>
+
+        <script src="js/questions.js"></script>
+
+        <script src="js/script.js"></script>
+
+        <div class="bottom" >
+            <p>Julius Agodzo © 2020 | MIT license </p>
+        </div>
+    </body>
+</html>
