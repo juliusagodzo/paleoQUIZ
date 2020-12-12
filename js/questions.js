@@ -35,7 +35,7 @@ let questions = [
     {
     numb: 4,
     question: "Se la funzione è irrazionale di indice dispari",
-    answer: "Mai",
+    answer: "Esiste sempre ∀ x ∈ Reali",
     options: [
       "Esiste sempre ∀ x ∈ Reali",
       "Si pone il radicando maggiore di zero",
