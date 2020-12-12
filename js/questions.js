@@ -34,13 +34,13 @@ let questions = [
   },
     {
     numb: 4,
-    question: "Una retta obliqua rappresenta una funzione dispari",
+    question: "Se la funzione è irrazionale di indice dispari",
     answer: "Mai",
     options: [
-      "Sempre",
-      "Solo se è crescente",
-      "Mai",
-      "Solo se è decrescente"
+      "Esiste sempre ∀ x ∈ Reali",
+      "Si pone il radicando maggiore di zero",
+      "Si pone il radicando diverso da zero",
+      "Non esiste"
     ]
   },
     {
